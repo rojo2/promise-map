@@ -1,0 +1,27 @@
+{
+  "name": "@rojo2/promise-map",
+  "version": "1.0.0",
+  "description": "PromiseMap",
+  "main": "PromiseMap.js",
+  "type": "module",
+  "scripts": {
+    "test:coverage": "c8 npm test",
+    "test": "mocha --recursive '*.spec.js'"
+  },
+  "keywords": [
+    "Promise",
+    "Map",
+    "async",
+    "await",
+    "asynchronous"
+  ],
+  "author": "rojo2 <hola@rojo2.com> (https://rojo2.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "c8": "^7.12.0",
+    "chai": "^4.3.7",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^10.1.0",
+    "sinon": "^14.0.2"
+  }
+}
